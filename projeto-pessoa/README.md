@@ -1,1 +1,1 @@
-A simple command-line application.
+Estes são os comandos que aprendi ao decorrer da aula do Cenora.
