@@ -16,7 +16,9 @@ class Mp3Player{
   }
 
   retornaAtual(Musica musica){
+    print("A música retornada foi $musica");
     return _musicaAtual;
+
   }
 
   void proximaMusica(){
@@ -25,9 +27,9 @@ class Mp3Player{
   }
 
   void voltaMusica(){
-    if(_musicaAtual == 0 && _musicaAtual < 0){
-      _musicaAtual;
-      print("Você está na primeira música");
+    if(_musicaAtual == 0 || _musicaAtual < 0){
+      
+      print("Você já está na primeira música");
     }else{
       _musicaAtual--;
       print("Você voltou uma música");

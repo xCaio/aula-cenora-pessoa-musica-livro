@@ -7,8 +7,8 @@ class Livro{
   int _edicao = 0;
   String _isbn = "";
 
-  Autor autor = Autor("Autor do Livro");
-  Editora editora = Editora();
+  Autor autor = Autor("");
+  Editora editora = Editora("", "");
 
   String get titulo => _titulo;
   set titulo(String titulo) =>_titulo = titulo;
