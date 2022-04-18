@@ -17,7 +17,7 @@ class Mp3Player{
 
   retornaAtual(Musica musica){
     print("A música retornada foi $musica");
-    return _musicaAtual;
+    return musicaAtual;
 
   }
 
